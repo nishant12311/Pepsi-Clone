@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="shape"></div>
+        <div class="navbar">
+            <a href="#" class="logo"><img src="../images/logo.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul role="list" class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="content-text">
+                <h2 class="product-header">It's not just a drink<br>
+                    it's <span>Pepsi!</span>
+                </h2>
+                <p class="product-des">Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by Caleb Bradham and introduced as Brad's Drink, it was renamed as Pepsi-Cola in 1898, and then shortened to Pepsi in 1961.
+            </p>
+            <button class="learn-more">learn more</button>
+            </div>
+
+            <div class="content-picture">
+                <img src="../images/blue_pepsi.png" alt="pepsi" class="pepsi">
+                <div class="socials">
+                    <ul class="social-media">
+                        <li><img src="../images/facebook.png" alt=""></li>
+                        <li><img src="../images/twitter.png" alt=""></li>
+                        <li><img src="../images/instagram.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumb">
+            <ul class="product-gallery">
+                <li><img src="../images/blue_pepsi.png" onclick="imgSlide('../images/blue_pepsi.png');changeColors('#004b93')"></li>
+                <li><img src="../images/silver_pepsi.png" onclick="imgSlide('../images/silver_pepsi.png');changeColors('#c3c7c7')"></li>
+                <li><img src="../images/black_pepsi.png" onclick="imgSlide('../images/black_pepsi.png');changeColors('black')"></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
